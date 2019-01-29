@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<LinearLayout 
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="horizontal" >
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="data:"
+			android:textColor="#ff000000"
+		/>
+
+
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/text"
+			android:textColor="#ff000000"
+		/>
+	</LinearLayout>
+	<LinearLayout 
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="horizontal" >
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="designação:"
+			android:textColor="#ff000000"
+		/>
+
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#ff000000"
+			android:id="@+id/text2"
+		/>
+	</LinearLayout>
+	
+	<LinearLayout 
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="horizontal" >
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="imposto:"
+			android:textColor="#ff000000"
+		/>
+
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#ff000000"
+			android:id="@+id/text3"
+		/>
+	</LinearLayout>
+	<LinearLayout 
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="horizontal" >
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="quantidade:"
+			android:textColor="#ff000000"
+		/>
+
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#ff000000"
+			android:id="@+id/text4"
+		/>
+	</LinearLayout>
+	<LinearLayout 
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="horizontal" >
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="valor:"
+			android:textColor="#ff000000"
+		/>
+
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#ff000000"
+			android:id="@+id/text5"
+		/>
+	</LinearLayout>
+	<LinearLayout 
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="horizontal" >
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="subtotal:"
+			android:textColor="#ff000000"
+		/>
+		
+	
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#ffff0000"
+			android:id="@+id/text6"
+		/>
+	</LinearLayout>
+</LinearLayout>
+
+
+
+
+
