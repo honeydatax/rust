@@ -3,7 +3,7 @@
 
 
 
-hpwasm
+wasm
 
 
 
